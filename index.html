@@ -8,7 +8,6 @@
 </head>
 <body class="page">
   <header class="page-header">
-		<img src="img/avatar.jpg" alt="Логотип" class="page-header__logo">
 		<nav class="page-header__general-nav general-nav">
 			<ul class="general-nav__list">
 				<li class="general-nav__item"><a href="#skills" class="general-nav__link">Навыки</a></li>
@@ -16,6 +15,7 @@
 				<li class="general-nav__item"><a href="#contact" class="general-nav__link">Контакты</a></li>
 			</ul>
 		</nav>
+		<img src="img/avatar.jpg" alt="Логотип" class="page-header__logo" width="300" height="300">
   </header>
 
   <main class="page-main">
@@ -26,14 +26,14 @@
 			<ul class="skills__list">
 				<li class="skills__item">HTML5/CSS3</li>
 				<li class="skills__item">SCSS</li>
+				<li class="skills__item">БЭМ</li>
 				<li class="skills__item">Gulp</li>
 				<li class="skills__item">GIT</li>
-				<li class="skills__item">БЭМ</li>
-				<li class="skills__item">Вёрстка адаптивная, резиновая, кроссбраузерная, валидная</li>
-				<li class="skills__item">Retina</li>
 				<li class="skills__item">SVG</li>
+				<li class="skills__item">Retina</li>
 				<li class="skills__item">Adobe Photoshop</li>
 				<li class="skills__item">Базовый JavaScript</li>
+				<li class="skills__item">Вёрстка адаптивная, резиновая, кроссбраузерная, валидная</li>
 			</ul>
 		</section>
 
@@ -41,28 +41,28 @@
 			<h2 class="my-works__title">Мои работы</h2>
 			<ul class="my-works__list">
 				<li class="my-works__item">
-					<a href="#" class="my-works__link">
-						<img src="" alt="Bicycle" class="my-works__img">
+					<a href="https://github.com/ehassed3/bicycle" class="my-works__link">
+						<img src="img/bicycle.jpg" alt="Bicycle" class="my-works__img" width="600" height="800">
 					</a>
 				</li>
 				<li class="my-works__item">
-					<a href="#" class="my-works__link">
-						<img src="" alt="Sedona" class="my-works__img">
+					<a href="https://github.com/ehassed3/sedona" class="my-works__link">
+						<img src="img/sedona.jpg" alt="Sedona" class="my-works__img" width="600" height="800">
 					</a>
 				</li>
 				<li class="my-works__item">
-					<a href="#" class="my-works__link">
-						<img src="" alt="Nerds" class="my-works__img">
+					<a href="https://github.com/ehassed3/nerds" class="my-works__link">
+						<img src="img/nerds.jpg" alt="Nerds" class="my-works__img" width="600" height="800">
 					</a>
 				</li>
 				<li class="my-works__item">
-					<a href="#" class="my-works__link">
-						<img src="" alt="Keksobooking" class="my-works__img">
+					<a href="https://github.com/ehassed3/keksobooking" class="my-works__link">
+						<img src="img/keksobooking.jpg" alt="Keksobooking" class="my-works__img" width="600" height="800">
 					</a>
 				</li>
 				<li class="my-works__item">
-					<a href="#" class="my-works__link">
-						<img src="" alt="Code and Magick" class="my-works__img">
+					<a href="https://github.com/ehassed3/code-and-magick" class="my-works__link">
+						<img src="img/code-magic.jpg" alt="Code and Magick" class="my-works__img" width="600" height="800">
 					</a>
 				</li>
 			</ul>
@@ -77,7 +77,7 @@
 				<li class="social__item">
 					<a href="mailto:ehassed3@gmail.com" class="social__link">
 						<title>Почта</title>
-						<svg viewBox="0 0 32 32" width="32" height="32">
+						<svg class="social__icon" viewBox="0 0 32 32" width="32" height="32">
 							<path d="M29 4h-26c-1.657 0-3 1.343-3 3v18c0 1.656 1.343 3 3 3h26c1.657 0 3-1.344 3-3v-18c0-1.657-1.343-3-3-3zM2.741 25.99l-0.731-0.732 8.249-8.248 0.731 0.732-8.249 8.248zM29.259 25.99l-8.249-8.248 0.731-0.732 8.249 8.248-0.731 0.732zM17 19.325v0.675h-2v-0.675l-12.997-12.050 1.272-1.272 12.725 11.798 12.725-11.798 1.272 1.272-12.997 12.050z"></path>
 						</svg>
 					</a>
@@ -85,7 +85,7 @@
 				<li class="social__item">
 					<a href="skype:live:ehassed3?chat" class="social__link">
 						<title>Скайп</title>
-						<svg viewBox="0 0 32 32" width="32" height="32">
+						<svg class="social__icon" viewBox="0 0 32 32" width="32" height="32">
 							<path d="M13.3 1.169c-0.050-0.031-0.106-0.056-0.156-0.081-0.056 0.012-0.106 0.019-0.162 0.031l0.319 0.050z"></path>
 							<path d="M1.15 13.156c-0.012 0.056-0.019 0.113-0.025 0.162 0.031 0.050 0.050 0.1 0.081 0.15l-0.056-0.313z"></path>
 							<path d="M30.837 18.831c0.012-0.056 0.019-0.113 0.031-0.169-0.031-0.050-0.050-0.1-0.081-0.15l0.050 0.319z"></path>
@@ -97,7 +97,7 @@
 				<li class="social__item">
 					<a href="https://github.com/ehassed3" class="social__link">
 						<title>Гитхаб</title>
-						<svg viewBox="0 0 32 32" width="32" height="32">
+						<svg class="social__icon" viewBox="0 0 32 32" width="32" height="32">
 							<path d="M16 0.395c-8.836 0-16 7.163-16 16 0 7.069 4.585 13.067 10.942 15.182 0.8 0.148 1.094-0.347 1.094-0.77 0-0.381-0.015-1.642-0.022-2.979-4.452 0.968-5.391-1.888-5.391-1.888-0.728-1.849-1.776-2.341-1.776-2.341-1.452-0.993 0.11-0.973 0.11-0.973 1.606 0.113 2.452 1.649 2.452 1.649 1.427 2.446 3.743 1.739 4.656 1.33 0.143-1.034 0.558-1.74 1.016-2.14-3.554-0.404-7.29-1.777-7.29-7.907 0-1.747 0.625-3.174 1.649-4.295-0.166-0.403-0.714-2.030 0.155-4.234 0 0 1.344-0.43 4.401 1.64 1.276-0.355 2.645-0.532 4.005-0.539 1.359 0.006 2.729 0.184 4.008 0.539 3.054-2.070 4.395-1.64 4.395-1.64 0.871 2.204 0.323 3.831 0.157 4.234 1.026 1.12 1.647 2.548 1.647 4.295 0 6.145-3.743 7.498-7.306 7.895 0.574 0.497 1.085 1.47 1.085 2.963 0 2.141-0.019 3.864-0.019 4.391 0 0.426 0.288 0.925 1.099 0.768 6.354-2.118 10.933-8.113 10.933-15.18 0-8.837-7.164-16-16-16z"></path>
 						</svg>
 					</a>
