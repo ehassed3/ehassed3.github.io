@@ -11,7 +11,7 @@
 }
 
 .page {
-	width: 1200px;
+	max-width: 1200px;
 	margin: 0 auto;
 
 	font-family: "Arial", sans-serif;
@@ -92,6 +92,7 @@
 
 .skills__item {
 	padding: 10px;
+	text-align: center;
 }
 
 .my-works {
@@ -176,4 +177,23 @@
 
 .social__icon:active {
 	fill: #94979a;
+}
+
+@media (max-width: 768px) {
+	.page-header {
+		height: 500px;
+	}
+
+	.general-nav__link {
+		padding: 10px;
+	}
+
+	.page-header__logo {
+		width: 200px;
+		height: 200px;
+	}
+
+	.my-works__img {
+		width: 100%;
+	}
 }
