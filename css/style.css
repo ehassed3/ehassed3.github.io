@@ -19,55 +19,24 @@
 	color: #000000;
 }
 
-.page-header {
-  display: flex;
-  justify-content: center;
-
-  background-color: #4d5b71;
-}
-
-.general-nav__list {
-	display: flex;
-	margin: 0;
-	padding: 0;
-
-	list-style: none;
-}
-
-.general-nav__item:not(:last-child) {
-	margin-right: 20px;
-}
-
-.general-nav__link {
-	display: inline-block;
-  width: 150px;
-  line-height: 70px;
-
-  text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	color: #ffffff;
-}
-
-.general-nav__link:hover,
-.general-nav__link:focus {
-	background-color: #353738;
-}
-
-.general-nav__link:active {
-	background-color: #282f35;
-}
-
 .page-main__img {
 	display: block;
-	margin: 50px auto;
+	margin: 30px auto 20px auto;
 
 	border-radius: 50%;
 	border: 10px solid #4d5b71;
 }
 
+.page-main__title {
+	max-width: 300px;
+	margin: 0 auto;
+
+	font-size: 20px;
+	text-align: center;
+}
+
 .skills {
-	padding-bottom: 40px;
+	padding: 40px 0;
 }
 
 .skills__title {
@@ -81,7 +50,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-top: 20px;
 	margin-bottom: 0;
 	padding: 0;
 
